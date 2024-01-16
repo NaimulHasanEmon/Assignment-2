@@ -156,7 +156,7 @@ input::placeholder {
 .explore-box-form {
     display: inline-flex;
     padding: 16px;
-    align-items: flex-start;
+    align-items: center;
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -737,5 +737,42 @@ input::placeholder {
     .explore-title {
         font-size: 22px;
         font-weight: 800;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .pti {
+        width: 335px;
+        height: 342px;
+        margin: 0 auto;
+    }
+
+    .row1, .row2, .row3 {
+        flex-direction: column;
+    }
+
+    .maldives-text, .indonesia-text, .srilanka-text, .north-america-text, .kashmir-text, .bangladesh-text, .bandarban-text {
+        display: none;
+    }
+
+    .choose-us-container-row2 {
+        flex-direction: column;
+    }
+
+    .first-color-box, .second-color-box, .choose-us-container-row3 {
+        width: 335px;
+        height: 289px;
+        margin: 0 auto;
+    }
+
+    .map-details, .hotel-details, .price-details {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .img1-info, .img2-info, .img3-info {
+        display: none;
     }
 }
