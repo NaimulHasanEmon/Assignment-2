@@ -3,6 +3,10 @@
     max-height: 500px;
 }
 
+header, main, footer {
+    margin: 20px;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -228,15 +232,54 @@ input::placeholder {
     line-height: 26px;
 }
 
-.maldives-text {
+.row1, .row2, .row3 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.maldives-text, .indonesia-text, .srilanka-text, .north-america-text, .kashmir-text, .bangladesh-text, .bandarban-text {
     color: #FFF;
     text-align: center;
     font-family: 'Mulish', sans-serif;
     font-size: 35px;
     font-weight: 800;
     position: absolute;
+}
+
+.maldives-text {
     right: 890px;
     top: 1790px;
+}
+
+.indonesia-text {
+    right: 255px;
+    top: 1790px;
+}
+
+.srilanka-text {
+    right: 985px;
+    top: 2100px;
+}
+
+.north-america-text{
+    right: 470px;
+    top: 2100px;
+}
+
+.kashmir-text {
+    right: 125px;
+    top: 2100px;
+}
+
+.bangladesh-text {
+    right: 900px;
+    top: 2410px;
+}
+
+.bandarban-text {
+    right: 290px;
+    top: 2410px;
 }
 
 
