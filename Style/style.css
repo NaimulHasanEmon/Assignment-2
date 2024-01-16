@@ -190,7 +190,6 @@ input::placeholder {
 .ptt-3 {
     color: #5A5A5D;
     font-family: 'Mulish', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
@@ -321,14 +320,6 @@ input::placeholder {
     font-weight: 800;
 }
 
-.hotel-details {
-    width: 486px;
-    color: #5A5A5D;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 400;
-    line-height: 26px;
-}
-
 .first-color-box {
     width: 573px;
     height: 284px;
@@ -345,7 +336,7 @@ input::placeholder {
     font-weight: 800;
 }
 
-.map-details {
+.map-details, .hotel-details, .price-details {
     width: 486px;
     color: #5A5A5D;
     font-family: 'Mulish', sans-serif;
@@ -364,15 +355,6 @@ input::placeholder {
 
 .choose-us-container-row2 {
     display: flex;
-}
-
-.price-details {
-    width: 486px;
-    color: #5A5A5D;
-    font-family: 'Mulish', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 .price-name {
@@ -394,6 +376,126 @@ input::placeholder {
 .choose-us-container-row3, .first-color-box, .second-color-box {
     padding: 32px;
 }
+
+.discounts {
+    margin-top: 100px;
+}
+
+.discounts-title {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discounts-details {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.discounts-row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule, .max10, .location {
+    display: flex;
+    align-items: center;
+}
+
+.day-night, .max {
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+.img1-row1, .img2-row1 {
+    display: flex;
+    gap: 24px;
+}
+
+.discounts-img1-title {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.discounts-img1-title-inner {
+    width: 452px;
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.orange-price {
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.book-more-button-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.book-now {
+    color: #FFF;
+    background: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.img1-info {
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    left: 550px;
+    top: 4070px;
+}
+
+.img2-info {
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    left: 150px;
+    top: 4570px;
+}
+
+.img3-info {
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    left: 550px;
+    top: 5080px;
+}
+
+
 
 
 /* Responsive */
