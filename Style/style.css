@@ -40,11 +40,13 @@ header, main, footer {
     font-family: 'Mulish', sans-serif;
     font-size: 36px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .logo {
     width: 48px;
     height: 56.008px;
+    cursor: pointer;
 }
 
 .travel {
@@ -97,7 +99,6 @@ header, main, footer {
     color: #FFF;
     text-align: center;
     font-family: 'Mulish', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin: 0 247px 80px 247px;
@@ -121,18 +122,19 @@ header, main, footer {
     position: fixed;
     right: 645px;
     top: 422px;
+    cursor: pointer;
 }
 
 .first-arrow-logo-2 {
     position: fixed;
     right: 435px;
     top: 422px;
+    cursor: pointer;
 }
 
 input::placeholder {
     color: rgba(19, 19, 24, 0.50);
     font-family: 'Mulish', sans-serif;
-    font-size: 16px;
     font-weight: 400;
 }
 
@@ -148,6 +150,7 @@ input::placeholder {
     position: fixed;
     right: 350px;
     top: 422px;
+    cursor: pointer;
 }
 
 .explore-box-form {
@@ -180,7 +183,6 @@ input::placeholder {
 .list-all, .ptt-1 {
     color: rgba(19, 19, 24, 0.70);
     font-family: 'Mulish', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
@@ -213,6 +215,7 @@ input::placeholder {
     width: 174px;
     height: 52px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .destination-title {
@@ -227,7 +230,6 @@ input::placeholder {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: 'Mulish', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
@@ -281,10 +283,116 @@ input::placeholder {
 .bandarban-text {
     right: 270px;
     top: 2450px;
-}
+}iner
 
 .maldives-img, .indonesia-img, .srilanka-img, .north-america-img, .kashmir-img, .bangladesh-img, .bandarban-img {
     filter: brightness(0.7);
+    border-radius: 16px;
+}
+
+.choose-us {
+    margin-top: 100px;
+}
+
+.choose-us-container-row1{
+    text-align: center;
+}
+
+.choose-us-title {
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us-details {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.hotel-name {
+    color: #131318;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+
+.hotel-details {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.first-color-box {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    margin: 48px 24px 56px 20px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map-name {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.map-details {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.second-color-box {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    margin: 48px 135px 24px 24px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-us-container-row2 {
+    display: flex;
+}
+
+.price-details {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price-name {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-us-container-row3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 24px auto;
+}
+
+.choose-us-container-row3, .first-color-box, .second-color-box {
+    padding: 32px;
 }
 
 
