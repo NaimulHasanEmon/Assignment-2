@@ -247,41 +247,45 @@ input::placeholder {
     position: absolute;
 }
 
+
 .maldives-text {
-    right: 890px;
-    top: 1790px;
+    right: 860px;
+    top: 1800px;
 }
 
 .indonesia-text {
     right: 255px;
-    top: 1790px;
+    top: 1800px;
 }
 
 .srilanka-text {
-    right: 985px;
-    top: 2100px;
+    right: 955px;
+    top: 2130px;
 }
 
 .north-america-text{
-    right: 470px;
-    top: 2100px;
+    right: 460px;
+    top: 2130px;
 }
 
 .kashmir-text {
-    right: 125px;
-    top: 2100px;
+    right: 110px;
+    top: 2130px;
 }
 
 .bangladesh-text {
-    right: 900px;
-    top: 2410px;
+    right: 880px;
+    top: 2450px;
 }
 
 .bandarban-text {
-    right: 290px;
-    top: 2410px;
+    right: 270px;
+    top: 2450px;
 }
 
+.maldives-img, .indonesia-img, .srilanka-img, .north-america-img, .kashmir-img, .bangladesh-img, .bandarban-img {
+    filter: brightness(0.7);
+}
 
 
 /* Responsive */
