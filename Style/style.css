@@ -155,3 +155,31 @@ input::placeholder {
     background: rgba(255, 255, 255, 0.30);
     margin: 48px 185px 106px 185px;
 }
+
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .header-nav {
+        flex-direction: column;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .explore-all-contents {
+        flex-direction: column;
+    }
+
+    .explore-title {
+        color: #FFF;
+        font-family: 'Mulish', sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+        margin: 20px;
+    }
+
+    .explore {
+    border-radius: 8px;
+    }
+}
