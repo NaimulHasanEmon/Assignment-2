@@ -490,7 +490,7 @@ input::placeholder {
     backdrop-filter: blur(2.5px);
     position: absolute;
     left: 550px;
-    top: 4070px;
+    top: 4000px;
 }
 
 .img2-info {
@@ -501,7 +501,7 @@ input::placeholder {
     backdrop-filter: blur(2.5px);
     position: absolute;
     left: 150px;
-    top: 4570px;
+    top: 4500px;
 }
 
 .img3-info {
@@ -512,7 +512,7 @@ input::placeholder {
     backdrop-filter: blur(2.5px);
     position: absolute;
     left: 550px;
-    top: 5080px;
+    top: 5010px;
 }
 
 .perfect-place {
@@ -661,8 +661,8 @@ input::placeholder {
 .travel-bar {
     text-align: center;
     position: absolute;
-    top: 6735px;
-    left: 842px;
+    top: 6660px;
+    left: 830px;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -728,8 +728,8 @@ input::placeholder {
     }
     
     .explore-box-form {
-        flex-direction: column;
-        width: 190px;
+                flex-direction: column;
+width: 190px;
         padding: 10px;
         margin: 0;
     }
@@ -760,7 +760,7 @@ input::placeholder {
     .choose-us-container-row2 {
         flex-direction: column;
     }
-
+    
     .first-color-box, .second-color-box, .choose-us-container-row3 {
         width: 335px;
         height: 289px;
