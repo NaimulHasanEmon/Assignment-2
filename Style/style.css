@@ -1,0 +1,157 @@
+.header {
+    max-width: 1170px;
+    max-height: 500px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-header-title {
+    display: flex;
+    align-items: center;
+    margin: 50px auto 50px 135px;
+}
+
+.header-nav li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 44px;
+    margin: 50px 127px 60px auto;
+}
+
+.header-title {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.logo {
+    width: 48px;
+    height: 56.008px;
+}
+
+.travel {
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.home {
+    color: #FF5400;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.same {
+    color:#424247;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.explore {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    border-radius: 16px;
+    filter: brightness(0.85);
+}
+
+.explore-all-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-title {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    margin: 106px 287px 24px 287px;
+}
+
+.explore-details {
+    max-width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 247px 80px 247px;
+}
+
+.where, .when, .select-type {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.find {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.first-arrow-logo {
+    position: fixed;
+    right: 625px;
+    top: 422px;
+}
+
+.first-arrow-logo-2 {
+    position: fixed;
+    right: 415px;
+    top: 422px;
+}
+
+input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#inputField1::placeholder, #inputField4::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-logo {
+    position: fixed;
+    right: 320px;
+    top: 422px;
+}
+
+.explore-box-form {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 48px 185px 106px 185px;
+}
