@@ -618,18 +618,17 @@ input::placeholder {
     margin: 40px;
 }
 
-.name-input, .email-input, .subscribe{
-    width: 393px;
-    height: 52px;
-}
-
-.subscribe-button {
-    width: 393px;
+.name-input, .email-input{
+    width: auto;
     height: 52px;
     border-radius: 8px;
-    background: #c1aea5;
-    }
+}
 
+.subscribe {
+    width: 395px;
+    height: 52px;
+    border-radius: 8px;
+}
 .news-img {
     width: 500px;
     height: 500px;
