@@ -450,6 +450,26 @@ input::placeholder {
     align-items: center;
 }
 
+.all-packages {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.see-all-packages {
+    color: #FFF;
+    background: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .book-now {
     color: #FFF;
     background: #FF5400;
@@ -494,6 +514,155 @@ input::placeholder {
     left: 550px;
     top: 5080px;
 }
+
+.perfect-place {
+    display: flex;
+    margin-top: 113px;
+}
+
+.perfect-place-col1-title {
+    width: 448px;
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.perfect-place-col1-details {
+    width: 532px;
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.perfect-place-col1 ul li {
+    width: 518px;
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.perfect-place-img {
+    margin-top: 45px;
+}
+
+.text-upto-img-title {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.text-upto-img {
+    position: absolute;
+    top: 5930px;
+    left: 750px;
+}
+
+.news-letter-col1-title {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-letter-col1-details {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.subscribe {
+    color: #FFF;
+    background: #FF5400;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 400px;
+}
+
+.news-letter {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.news-letter-col1 {
+    display: flex;
+    flex-direction: column;
+    width: 474px;
+    height: 422px;
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.name-input, .email-input, .subscribe{
+    width: 393px;
+    height: 52px;
+}
+
+.subscribe-button {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #c1aea5;
+    }
+
+.news-img {
+    width: 500px;
+    height: 500px;
+    margin-top: 110px;
+}
+
+.travel-com {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.save70 {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.travel-bar {
+    text-align: center;
+    position: absolute;
+    top: 6745px;
+    left: 845px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+
 
 
 
