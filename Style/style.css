@@ -72,17 +72,24 @@ header, main, footer {
     font-weight: 400;
 }
 
-.explore {
+/* .explore {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-size: cover;
     border-radius: 16px;
     filter: brightness(0.85);
+} */
+
+.header-bg-img {
+    filter: brightness(0.8);
+    border-radius: 16px;
 }
 
 .explore-all-contents {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: 200px;
 }
 
 .explore-title {
@@ -119,16 +126,16 @@ header, main, footer {
 }
 
 .first-arrow-logo {
-    position: fixed;
-    right: 645px;
-    top: 422px;
+    position: absolute;
+    right: 630px;
+    top: 390px;
     cursor: pointer;
 }
 
 .first-arrow-logo-2 {
-    position: fixed;
-    right: 435px;
-    top: 422px;
+    position: absolute;
+    right: 426px;
+    top: 390px;
     cursor: pointer;
 }
 
@@ -147,9 +154,9 @@ input::placeholder {
 }
 
 .search-logo {
-    position: fixed;
-    right: 350px;
-    top: 422px;
+    position: absolute;
+    right: 340px;
+    top: 390px;
     cursor: pointer;
 }
 
@@ -160,7 +167,7 @@ input::placeholder {
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin: 48px 185px 106px 185px;
+    margin: 15px 185px 106px 185px;
 }
 
 .popular-tours {
