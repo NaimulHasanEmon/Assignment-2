@@ -704,17 +704,16 @@ input::placeholder {
     transform: scale(1.07);
 }
 
-
-/* To Hide */
-
-.hide {
-    display: none;
+.my-own {
+    font-family: 'Mulish', sans-serif;
 }
+
+
 
 
 /* Responsive */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     .fourteen-px, .ptt-1, .ptt-2, .list-all, .ptt-3, .destination-details, .perfect-place-col1-details, .foot-end {
         font-size: 14px;
     }
