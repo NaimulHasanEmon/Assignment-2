@@ -6,7 +6,6 @@
 header, main, footer {
     font-family: 'Mulish', sans-serif;
     margin: 20px;
-    
 }
 
 .header-nav {
@@ -18,7 +17,7 @@ header, main, footer {
 .div-header-title {
     display: flex;
     align-items: center;
-    margin: 50px auto 50px 100px;
+    margin: 50px auto auto 75px;
 }
 
 .header-nav li {
@@ -287,7 +286,6 @@ input::placeholder {
 .choose-us-title {
     color: #131318;
     text-align: center;
-    
     font-size: 40px;
     font-weight: 800;
 }
@@ -323,7 +321,6 @@ input::placeholder {
 .map-details, .hotel-details, .price-details {
     width: 486px;
     color: #5A5A5D;
-    
     font-weight: 400;
     line-height: 26px;
 }
@@ -675,7 +672,111 @@ input::placeholder {
 
 
 /* Responsive */
+
 @media screen and (max-width: 576px) {
+
+    .fourteen-px, .ptt-1, .ptt-2, .list-all, .ptt-3, .destination-details {
+        font-size: 14px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+    
+    .div-header-title {
+        margin: 0 auto;
+    }
+
+    .header-bg-img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .explore-title {
+        font-size: 22px;
+    }
+
+    .explore-all-contents {
+        top: 50px;
+    }
+
+    .explore-details {
+        width: 300px;
+        line-height: 14px;
+        margin: 30px;
+    }
+
+    .explore-box-form {
+        flex-direction: column;
+        width: 50%;
+        padding: 30px;
+        gap: 15px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        margin: 15px auto;
+    }
+
+    .where, .when, .select-type {
+        width: 180%;
+        height: 20px;
+        border-radius: 8px;
+        background: #FFF;
+    }
+
+    .find {
+        width: 180%;
+        height: 20px;
+        border-radius: 8px;
+    }
+
+    .first-arrow-logo {
+        right: 250px;
+        top: 423px;
+    }
+
+    .first-arrow-logo-2 {
+        right: 250px;
+        top: 465px;
+    }
+
+    .search-logo {
+        right: 380px;
+        top: 506px;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .pti {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .maldives-text, .indonesia-text, .srilanka-text, .north-america-text, .kashmir-text, .bangladesh-text, .bandarban-text {
+        display: none;
+    }
+
+    .ptt {
+        font-size: 22px;
+    }
+
+    .destination-title {
+        font-size: 20px;
+    }
+
+    .maldives-img, .indonesia-img, .srilanka-img, .north-america-img, .kashmir-img, .bangladesh-img, .bandarban-img {
+        width: 100%;
+    }
+
+    .row1, .row2, .row3 {
+        flex-direction: column;
+    }
+}
+
+
+
+/* @media screen and (max-width: 576px) {
     .nav-list {
         display: none;
     }
@@ -711,10 +812,10 @@ input::placeholder {
     }
 
     .perfect-place-col1-details {
-    color: #5A5A5D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
     }
 
     .perfect-place-col1 ul li {
@@ -764,10 +865,6 @@ input::placeholder {
     .travel-com, .travel-bar {
         display: none;
     }
-/* 
-    .perfect-place-col1 {
-        width: 100px;
-    } */
 
     .perfect-place {
         flex-direction: column
@@ -775,4 +872,4 @@ input::placeholder {
     .news-letter {
         flex-direction: column;
     }
-}
+} */
