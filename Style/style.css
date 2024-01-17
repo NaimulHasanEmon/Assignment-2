@@ -460,8 +460,8 @@ input::placeholder {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     position: absolute;
-    left: 600px;
-    top: 3985px;
+    left: 620px;
+    top: 3960px;
 }
 
 .img2-info {
@@ -471,8 +471,8 @@ input::placeholder {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     position: absolute;
-    left: 150px;
-    top: 4500px;
+    left: 110px;
+    top: 4465px;
 }
 
 .img3-info {
@@ -482,8 +482,8 @@ input::placeholder {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     position: absolute;
-    left: 600px;
-    top: 5020px;
+    left: 620px;
+    top: 4965px;
 }
 
 .perfect-place {
