@@ -674,9 +674,12 @@ input::placeholder {
 /* Responsive */
 
 @media screen and (max-width: 576px) {
-
-    .fourteen-px, .ptt-1, .ptt-2, .list-all, .ptt-3, .destination-details {
+    .fourteen-px, .ptt-1, .ptt-2, .list-all, .ptt-3, .destination-details, .perfect-place-col1-details {
         font-size: 14px;
+    }
+
+    header, main, footer {
+        margin: 5px;
     }
 
     .nav-list {
@@ -771,6 +774,106 @@ input::placeholder {
 
     .row1, .row2, .row3 {
         flex-direction: column;
+    }
+
+    .choose-us-container-row2 {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .first-color-box, .second-color-box, .choose-us-container-row3 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .map-details, .hotel-details, .price-details {
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .img1-info, .img2-info, .img3-info {
+        display: none;
+    }
+
+    .discounts-title, .news-letter-col1-title {
+        font-size: 20px;
+    }
+
+    .discounts-details {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .discount-img1, .discount-img2, .discount-img3 {
+        margin-bottom: 16px;
+    }
+
+    .big-bg {
+    width: 335px;
+    height: 500px;
+    }
+
+    .all-packages {
+        display: none;
+    }
+    
+    .perfect-place {
+        flex-direction: column;
+    }
+
+    .perfect-place-col1-title {
+        width: 248px;
+        font-size: 20px
+    }
+
+    .pp-list {
+        font-size: 14px;
+    }
+
+    .travel-com, .travel-bar, .text-upto-img-title {
+        display: none;
+    }
+
+    .news-letter {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .horizontal {
+        width: 100%;
+    }
+    
+    .news-letter-col1 {
+        flex-wrap: nowrap;
+        width: 290px;
+        height: 422px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .name-input, .email-input{
+        margin-bottom: 10px;
+        height: 52px;
+        border-radius: 8px;
+    }
+
+    .news-img {
+        width: 100%;
+    }
+
+    .news-letter-col1-details {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .input-form {
+        margin: 15px;
     }
 }
 
