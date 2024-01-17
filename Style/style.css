@@ -190,6 +190,7 @@ input::placeholder {
 
 .pti {
     margin: 75px 40px;
+    transition: transform 0.3s ease;
 }
 
 .read-more-button-box {
@@ -271,11 +272,6 @@ input::placeholder {
 .bandarban-text {
     right: 270px;
     top: 2310px;
-}
-
-.maldives-img, .indonesia-img, .srilanka-img, .north-america-img, .kashmir-img, .bangladesh-img, .bandarban-img {
-    filter: brightness(0.7);
-    border-radius: 16px;
 }
 
 .choose-us {
@@ -555,6 +551,7 @@ input::placeholder {
     font-size: 20px;
     font-weight: 800;
     width: 400px;
+    cursor: pointer;
 }
 
 .news-letter {
@@ -654,6 +651,10 @@ input::placeholder {
     line-height: 26px;
 }
 
+.social-link {
+    cursor: pointer;
+}
+
 .horizontal {
     width: 393px;
     height: 1px;
@@ -665,6 +666,43 @@ input::placeholder {
     background: rgba(19, 19, 24, 0.10);
 }
 
+.maldives-img, .indonesia-img, .srilanka-img, .north-america-img, .kashmir-img, .bangladesh-img, .bandarban-img {
+    filter: brightness(0.7);
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.maldives-img:hover {
+    transform: scale(1.07);
+}
+
+.indonesia-img:hover {
+    transform: scale(1.07);
+}
+
+.srilanka-img:hover {
+    transform: scale(1.07);
+}
+
+.north-america-img:hover {
+    transform: scale(1.07);
+}
+
+.kashmir-img:hover {
+    transform: scale(1.07);
+}
+
+.bangladesh-img:hover {
+    transform: scale(1.07);
+}
+
+.bandarban-img:hover {
+    transform: scale(1.07);
+}
+
+.pti:hover {
+    transform: scale(1.07);
+}
 
 
 /* To Hide */
