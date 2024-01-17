@@ -734,6 +734,7 @@ input::placeholder {
 
     .explore-title {
         font-size: 22px;
+        padding-top: 45px;
     }
 
     .explore-all-contents {
