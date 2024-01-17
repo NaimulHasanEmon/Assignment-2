@@ -757,31 +757,29 @@ input::placeholder {
     }
 
     .where, .when, .select-type {
-        width: 180%;
-        height: 20px;
+        height: 30px;
         border-radius: 8px;
         background: #FFF;
     }
 
     .find {
-        width: 180%;
-        height: 20px;
+        height: 25px;
         border-radius: 8px;
     }
 
     .first-arrow-logo {
-        right: 240px;
-        top: 416px;
+        right: 250px;
+        top: 430px;
     }
 
     .first-arrow-logo-2 {
-        right: 240px;
-        top: 456px;
+        right: 250px;
+        top: 480px;
     }
 
     .search-logo {
-        right: 390px;
-        top: 497px;
+        right: 380px;
+        top: 530px;
     }
 
     .popular-tours {
