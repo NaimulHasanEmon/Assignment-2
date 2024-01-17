@@ -234,40 +234,39 @@ input::placeholder {
     position: absolute;
 }
 
-
 .maldives-text {
     right: 860px;
-    top: 1800px;
+    top: 1700px;
 }
 
 .indonesia-text {
     right: 255px;
-    top: 1800px;
+    top: 1700px;
 }
 
 .srilanka-text {
     right: 955px;
-    top: 2130px;
+    top: 2000px;
 }
 
 .north-america-text{
     right: 460px;
-    top: 2130px;
+    top: 2000px;
 }
 
 .kashmir-text {
     right: 110px;
-    top: 2130px;
+    top: 2000px;
 }
 
 .bangladesh-text {
     right: 880px;
-    top: 2450px;
+    top: 2310px;
 }
 
 .bandarban-text {
     right: 270px;
-    top: 2450px;
+    top: 2310px;
 }
 
 .maldives-img, .indonesia-img, .srilanka-img, .north-america-img, .kashmir-img, .bangladesh-img, .bandarban-img {
@@ -620,8 +619,8 @@ input::placeholder {
 .travel-bar {
     text-align: center;
     position: absolute;
-    top: 6600px;
-    left: 840px;
+    top: 6640px;
+    left: 842px;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -792,10 +791,6 @@ input::placeholder {
         font-size: 14px;
     }
 
-    .img1-info, .img2-info, .img3-info {
-        display: none;
-    }
-
     .discounts-title, .news-letter-col1-title {
         font-size: 20px;
     }
@@ -845,7 +840,7 @@ input::placeholder {
         width: 100%;
     }
 
-    .horizontal {
+    .horizontal, .horizontal-foot {
         width: 100%;
     }
     
@@ -891,11 +886,10 @@ input::placeholder {
         width: 214.023px;
         height: 79.268px;
         transform: rotate(-19.628deg);
-        flex-shrink: 0;
         border-radius: 10.569px;
         background: #FF5400;
-        top: 8540px;
-        left: 130px;
+        top: -166px;
+        left: 55px;
     }
 
     .footer {
@@ -912,104 +906,38 @@ input::placeholder {
         width: 174.322px;
         height: 24px;
     }
-}
 
-
-
-/* @media screen and (max-width: 576px) {
-    .nav-list {
-        display: none;
+    .schedule, .max10, .location {
+        flex-direction: column;
     }
 
-    .big-bg {
-        width: 100%;
-    }
-
-    .header-bg-img {
+    .img1-row1, .img2-row1 {
         display: flex;
-        flex-direction: column;
-        width: 350px;
-        height: 500px;
-        border-radius: 16px;
-        flex-direction: row;
+        gap: 14px;
     }
 
-    .explore-details {
-        width: 304px;
-        font-size: 14px;
-    }
-    
-    .explore-box-form {
-        flex-direction: column;
-        width: 190px;
-        padding: 10px;
-        margin: 0;
-    }
-    
-    .explore-title {
-        font-size: 22px;
-        font-weight: 800;
+    .discounts-img1-title-inner {
+        width: 200px;
     }
 
-    .perfect-place-col1-details {
-        color: #5A5A5D;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
+    .img1-info {
+        width: 50%;
+        height: auto;
+        left: 50px;
+        top: 5200px;
     }
 
-    .perfect-place-col1 ul li {
-        color: #131318;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 26px;
+    .img2-info {
+        width: 50%;
+        height: auto;
+        left: 50px;
+        top: 5750px;
     }
 
-    .popular-tours {
-        flex-direction: column;
+    .img3-info {
+        width: 50%;
+        height: auto;
+        left: 50px;
+        top: 6270px;
     }
-
-    .pti {
-        width: 335px;
-        height: 342px;
-        margin: 0 auto;
-    }
-
-    .row1, .row2, .row3 {
-        flex-direction: column;
-    }
-
-    .maldives-text, .indonesia-text, .srilanka-text, .north-america-text, .kashmir-text, .bangladesh-text, .bandarban-text {
-        display: none;
-    }
-
-    .choose-us-container-row2 {
-        flex-direction: column;
-    }
-    
-    .first-color-box, .second-color-box, .choose-us-container-row3 {
-        width: 335px;
-        height: 289px;
-        margin: 0 auto;
-    }
-
-    .map-details, .hotel-details, .price-details {
-        width: 271px;
-        font-size: 14px;
-    }
-
-    .img1-info, .img2-info, .img3-info {
-        display: none;
-    }
-
-    .travel-com, .travel-bar {
-        display: none;
-    }
-
-    .perfect-place {
-        flex-direction: column
-    }
-    .news-letter {
-        flex-direction: column;
-    }
-} */
+} 
