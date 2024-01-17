@@ -941,7 +941,16 @@ input::placeholder {
         top: 6270px;
     }
 
+    .first-scroll {
+        display: flex;
+        cursor: pointer;
+    }
+
     .home, .same {
         display: none;
+    }
+
+    .div-header-title-nav {
+        cursor: pointer;
     }
 } 
