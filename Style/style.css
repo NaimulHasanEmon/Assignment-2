@@ -495,6 +495,10 @@ input::placeholder {
     margin-top: 113px;
 }
 
+.perfect-place-col1 {
+    padding: 20px;
+}
+
 .perfect-place-col1-title {
     color: #131318;
     font-size: 3rem;
@@ -502,7 +506,6 @@ input::placeholder {
 }
 
 .perfect-place-col1-details {
-    width: 532px;
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -510,7 +513,6 @@ input::placeholder {
 }
 
 .perfect-place-col1 ul li {
-    width: 518px;
     color: #131318;
     font-size: 16px;
     font-weight: 700;
@@ -522,7 +524,6 @@ input::placeholder {
 }
 
 .text-upto-img-title {
-    width: 276px;
     color: #FFF;
     text-align: center;
     font-size: 24px;
@@ -532,13 +533,7 @@ input::placeholder {
 
 .text-upto-img {
     position: absolute;
-    top: 5850px;
-    left: 770px;
-}
-
-.abc1 {
-    position: absolute;
-    top: 5850px;
+    top: 5860px;
     left: 700px;
 }
 
@@ -719,7 +714,6 @@ input::placeholder {
     }
 
     .perfect-place-col1-details {
-    width: 300px;
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -727,9 +721,7 @@ input::placeholder {
     }
 
     .perfect-place-col1 ul li {
-        width: 300px;
         color: #131318;
-        
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
@@ -775,10 +767,10 @@ input::placeholder {
     .travel-com, .travel-bar, .text-upto-img {
         display: none;
     }
-
+/* 
     .perfect-place-col1 {
         width: 100px;
-    }
+    } */
 
     .perfect-place {
         flex-direction: column
