@@ -526,8 +526,8 @@ input::placeholder {
     font-weight: 700;
     line-height: 36px;
     position: absolute;
-    top: 5860px;
-    left: 700px;
+    top: 5850px;
+    left: 730px;
 }
 
 .news-letter-col1-title {
@@ -619,8 +619,8 @@ input::placeholder {
 .travel-bar {
     text-align: center;
     position: absolute;
-    top: 6645px;
-    left: 832px;
+    top: 6745px;
+    left: 840px;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -732,18 +732,18 @@ input::placeholder {
     }
 
     .first-arrow-logo {
-        right: 250px;
-        top: 423px;
+        right: 240px;
+        top: 416px;
     }
 
     .first-arrow-logo-2 {
-        right: 250px;
-        top: 465px;
+        right: 240px;
+        top: 456px;
     }
 
     .search-logo {
-        right: 380px;
-        top: 506px;
+        right: 390px;
+        top: 497px;
     }
 
     .popular-tours {
